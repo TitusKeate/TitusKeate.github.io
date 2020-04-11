@@ -1,23 +1,9 @@
-
-/* Color Theme Swatches in Hex */
-.tree-1-hex { color: #49736B; }
-.tree-2-hex { color: #9FBFB6; }
-.tree-3-hex { color: #F28705; }
-.tree-4-hex { color: #F26B1D; }
-.tree-5-hex { color: #D94B2B; }
-
-/* Color Theme Swatches in RGBA */
-.tree-1-rgba { color: rgba(73, 115, 107, 1); }
-.tree-2-rgba { color: rgba(159, 191, 182, 1); }
-.tree-3-rgba { color: rgba(242, 135, 5, 1); }
-.tree-4-rgba { color: rgba(242, 107, 29, 1); }
-.tree-5-rgba { color: rgba(217, 75, 43, 1); }
-
-/* Color Theme Swatches in HSLA */
-.tree-1-hsla { color: hsla(168, 22, 36, 1); }
-.tree-2-hsla { color: hsla(163, 20, 68, 1); }
-.tree-3-hsla { color: hsla(32, 95, 48, 1); }
-.tree-4-hsla { color: hsla(21, 89, 53, 1); }
-.tree-5-hsla { color: hsla(11, 69, 50, 1); }
-
-background-image: url("background")
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+h1 {
+  text-shadow: 2px 2px #FF0000;
+}
+</style>
+</body>
