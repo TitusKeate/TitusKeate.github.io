@@ -55,8 +55,18 @@ td, th {
        url('consolas.svg#svgconsolas') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: Consolab;
+  src: url('Consolab.tff');
+  src: url('Consolas.tff?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Consolas.tff') format('woff2'), /* Super Modern Browsers */
+       url('consolas.woff') format('woff'), /* Pretty Modern Browsers */
+       url('consolas.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('consolas.svg#svgconsolas') format('svg'); /* Legacy iOS */
+}
+
 body{
-   font-family: 'Consolas',bold;
+   font-family: 'Consolab',bold;
 font-size: 18px;
     padding-top: 20px;
     padding-left: 20px;
@@ -108,8 +118,8 @@ a.f:active { color:white;text-decoration: none; }
     <p style="float: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   <h1 {
   text-shadow: 2px 2px #FF0000;
-}>
-<font color="white">
+} style="font-family: 'Consolab',bold;">
+<font color="white" >
 <b> Titus Keate </b>
 </font color="white">
 </h1>
