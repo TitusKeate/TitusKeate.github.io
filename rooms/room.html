@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>room</title>
+    <style media="screen">
+      body{
+        cursor: url('./hand64.png') 5 5, auto;
+
+      }
+      .overlay{
+    opacity:1.0;
+    background-color:#FDBAA0;
+    position:fixed;
+    width: 100%;
+
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+    align: center;
+    vertical-align: middle;
+    display:table-cell;
+
+}
+.bruh {
+  position: relative;
+  z-index: 0;
+  vertical-align: middle;
+ }
+.bottom {
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  vertical-align: middle;
+ }
+.top {
+  position: absolute;
+  z-index: 2;
+  vertical-align: middle;
+ }
+ .img {
+
+ }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var imageURLs = [
+       "room.jpg"
+     , "room1.jpg"
+     , "room2.jpg"
+     , "room3.jpg"
+     , "room4.jpg"
+     , "room5.jpg"
+     , "room6.jpg"
+     , "room7.jpg"
+     , "room8.jpg"
+     , "room9.jpg"
+     , "room10.jpg"
+     , "room11.jpg"
+     , "room12.jpg"
+     , "room13.jpg"
+     , "room14.jpg"
+     , "room15.jpg"
+     , "room16.jpg"
+     , "room17.jpg"
+     , "room18.jpg"
+     , "room19.jpg"
+     , "room20.jpg"
+     , "room21.jpg"
+     , "room22.jpg"
+     , "room23.jpg"
+     , "room24.jpg"
+     , "room25.jpg"
+     , "room26.jpg"
+     , "room27.jpg"
+     , "room28.jpg"
+     , "room29.jpg"
+     , "room30.jpg"
+     , "room31.jpg"
+     , "room32.jpg"
+     , "room33.jpg"
+     , "room34.jpg"
+     , "room35.jpg"
+     , "room36.jpg"
+     , "room37.jpg"
+     , "room38.jpg"
+
+
+     ];
+     function getImageTag() {
+     var img = '<img class="bruh"  height="60%" img src=\"';
+     var randomIndex = Math.floor(Math.random() * imageURLs.length);
+     img += imageURLs[randomIndex];
+     img += '\" alt=\"Oh no, the image is broken!\"/>';
+     return img;
+     }
+     </script>
+
+
+    <center>
+
+    <div class="overlay">
+      <br>
+        <img class="bottom" src="./enter.gif" height="60%">
+
+        <script type="text/javascript">
+    document.write(getImageTag());
+    </script>
+<br>
+
+        <div class="bubble">
+    </div>
+    <br><img src="./elephant.png" height="25%">
+    <img src="./ohno.gif" height="25%"><br>
+    <a href="start.html" onclick="cursor: url('./hand64click.png') 5 5, auto;"><img class="bottom" src="./flat2.png" height="60%"></a>
+    <audio autoplay>
+  <source src="open.mp3" type="audio/mpeg">
+</audio>
+  </body>
+</html>
